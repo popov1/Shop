@@ -1,0 +1,72 @@
+	body {
+		background: #efefef;
+		font-family: 'Open Sans', sans-serif;
+		color: #777;
+	}
+	
+	h1{
+	   color: #373B48;
+	   font-size:36px;
+	}
+	h2{
+	   color: #777;
+	   font-size:20px;
+	}
+	name{
+	margin: 370px;
+	border: 10px;
+	padding: 10px;
+	}
+	
+	.container {
+	  padding: 10px 20px 10px 20px;
+	  font-weight: 400;
+	  overflow: hidden;
+	  width: 90%;
+	  height: auto;
+	  background: #fff;
+	  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	  box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	}
+	
+	#login {
+     width: 320px;
+	 margin: auto;
+	 padding-bottom: 15px;
+	}
+	.mlogin {
+      /*margin: 170px auto 0;*/
+	  margin: 20px auto 0;
+	  
+	}
+
+	
+	.container form .input:focus {
+	 border: 1px solid #f58220;
+     -webkit-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+     -moz-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+     box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+	}	
+	
+	
+	.Main_container {
+	  padding: 10px 20px 10px 20px;
+	  font-weight: 400;
+	  overflow: hidden;
+	  width: 90%;
+	  height: auto;
+	  background: #fff;
+	  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	  box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	}
+	
+	
+	Menu_table{
+	border: 10px;
+	padding: 10px;
+	border: 1px;
+	}
+	
+	
