@@ -1,14 +1,14 @@
-<font color = red>В процессе пока</font>
+<p>В процессе пока</p>
 <br/>
-<div class="Name" align = "center"  >
+<div class="name">
 <div class="Main_container" >
 <h1>Добро пожаловать в Интернет-магазин шин и дисков  Shina24.com.ua</h1>
 	<h2>Шина 24 предлагает Вашему вниманию автошины лидирующих мировых производителей.</h2>
 </div>  
 </div>
 
-<div class="Name" align = "center" >
-<div class="container"  align = "left" >
+<div class="name" >
+<div class="container" >
 		<form method="POST" action ="viewpost_brend.php" >
 		<fieldset>
 		<legend>Фильтры</legend>
@@ -63,12 +63,12 @@
 		</OPTION>
 		<?php } ?>
 		</select >	
-		<button type="submit" name="poisk_brenda" >Выполнить поиск</button>
+		<button type="submit" name="find_brend" >Выполнить поиск</button>
 		</fieldset>	
 		</form>		
 </div>
-<div class="Name" align = "center" >
-<div class="container"  align = "left" >
+<div class="name">
+<div class="container">
 
 <?php 
 		$kol_row = 0;
