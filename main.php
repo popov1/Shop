@@ -1,3 +1,4 @@
+<!-- нет такого тега font-->
 <font color = red>В процессе пока</font>
 <br/>
 <div class="Name" align = "center"  >
@@ -62,11 +63,14 @@
 		<?php print ($brend)?>
 		</OPTION>
 		<?php } ?>
-		</select >	
+		</select >
+<!--        плохое название poisk_brenda. Не пользуйся транслитом, онли инглиш   -->
 		<button type="submit" name="poisk_brenda" >Выполнить поиск</button>
 		</fieldset>	
 		</form>		
 </div>
+<!--  class="Name" название css-классов  с маленькой буквы -->
+<!--    align = "center" не используются такие атрибуты. СТили css пишутся в отдельном файле. Если тебе нужно выродвнять по горизонтали, то это style="text-align: center" -->
 <div class="Name" align = "center" >
 <div class="container"  align = "left" >
 
