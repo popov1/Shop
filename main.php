@@ -1,15 +1,14 @@
-<!-- нет такого тега font-->
-<font color = red>В процессе пока</font>
+<p>В процессе пока</p>
 <br/>
-<div class="Name" align = "center"  >
+<div class="name">
 <div class="Main_container" >
 <h1>Добро пожаловать в Интернет-магазин шин и дисков  Shina24.com.ua</h1>
 	<h2>Шина 24 предлагает Вашему вниманию автошины лидирующих мировых производителей.</h2>
 </div>  
 </div>
 
-<div class="Name" align = "center" >
-<div class="container"  align = "left" >
+<div class="name" >
+<div class="container" >
 		<form method="POST" action ="viewpost_brend.php" >
 		<fieldset>
 		<legend>Фильтры</legend>
@@ -63,17 +62,13 @@
 		<?php print ($brend)?>
 		</OPTION>
 		<?php } ?>
-		</select >
-<!--        плохое название poisk_brenda. Не пользуйся транслитом, онли инглиш   -->
-		<button type="submit" name="poisk_brenda" >Выполнить поиск</button>
+		</select >	
+		<button type="submit" name="find_brend" >Выполнить поиск</button>
 		</fieldset>	
 		</form>		
 </div>
-<!--  class="Name" название css-классов  с маленькой буквы -->
-<!--    align = "center" не используются такие атрибуты. СТили css пишутся в отдельном файле. Если тебе нужно выродвнять по горизонтали, то это style="text-align: center" -->
-<div class="Name" align = "center" >
-<div class="container"  align = "left" >
-
+<div class="name">
+<div class="container">
 <?php 
 		$kol_row = 0;
 		@mysql_connect($sdd_db_host,$sdd_db_user,$sdd_db_pass); // коннект с сервером бд
