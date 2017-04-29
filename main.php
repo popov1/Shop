@@ -69,7 +69,6 @@
 </div>
 <div class="name">
 <div class="container">
-
 <?php 
 		$kol_row = 0;
 		@mysql_connect($sdd_db_host,$sdd_db_user,$sdd_db_pass); // коннект с сервером бд
